@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('images/stranger-things.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 6px;
+  }
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+h2 {
+    color: #ffffff;
+    position: absolute;
+    font-size: 17px;
+    font-weight:bold;
+    top: 80px;
+    left: calc(37% - 72.5px);
+    width: 500px;
+    text-align:center;
+  }
+ 
+@media(max-width: 460px) {
+    body {
+        background-image: url('images/stranger-things-mobile.jpg');       
+    }
+
+    h2 {
+        width: 300px;
+        left: calc(30% - 72.5px);
+    }
+  }
